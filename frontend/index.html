@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>TO-DO List</h1>
+
+    <div class="stats-bar">
+    <span>Total: <strong id="total-count">0</strong></span>
+    <span>Completed: <strong id="completed-count">0</strong></span>
+    <span>Pending: <strong id="pending-count">0</strong></span>
+     </div>
+        <div class="input-container">
+            <input type="text" id="task-input" placeholder="Add a new task..."/>
+            <button onclick="addTask()">Add Task</button>
+
+        </div>
+        
+        <!-- Task list -->
+        <div id="task-list"></div>
+
+
+
+
+
+        <ul id="todo-list">
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
