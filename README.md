@@ -10,8 +10,8 @@
 
 ## 🔗 Live Demo
 
-- **Frontend:** _add your deployed link here_
-- **Backend API:** _add your deployed link here_
+- **Frontend:** 
+- **Backend API:** 
 
 ## 📌 What It Does
 
